@@ -1,0 +1,373 @@
+{
+	"info": {
+		"_postman_id": "c8b9f952-e86a-425f-b7d2-c94bd13c74f9",
+		"name": "Lab Capstone",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1525286"
+	},
+	"item": [
+		{
+			"name": "Create New Category",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Data Engineering\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://labmanagement-app.azurewebsites.net/category",
+					"protocol": "https",
+					"host": [
+						"labmanagement-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labmanagement-app.azurewebsites.net/category",
+					"protocol": "https",
+					"host": [
+						"labmanagement-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Single Category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labmanagement-app.azurewebsites.net/category/1",
+					"protocol": "https",
+					"host": [
+						"labmanagement-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"category",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Category",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"name\": \"Data Engineering Fundamentals\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://labmanagement-app.azurewebsites.net/category/1",
+					"protocol": "https",
+					"host": [
+						"labmanagement-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"category",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Category",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://labmanagement-app.azurewebsites.net/category/1",
+					"protocol": "https",
+					"host": [
+						"labmanagement-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"category",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create New Author",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Joe\",\r\n    \"lastName\": \"Schmoe\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://labmanagement-app.azurewebsites.net/author",
+					"protocol": "https",
+					"host": [
+						"labmanagement-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"author"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Authors",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labmanagement-app.azurewebsites.net/author",
+					"protocol": "https",
+					"host": [
+						"labmanagement-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"author"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Single Author",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labmanagement-app.azurewebsites.net/author/1",
+					"protocol": "https",
+					"host": [
+						"labmanagement-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"author",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Author",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"firstName\": \"Joseph\",\r\n    \"lastName\": \"Schmoe\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://labmanagement-app.azurewebsites.net/author/1",
+					"protocol": "https",
+					"host": [
+						"labmanagement-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"author",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Author",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://labmanagement-app.azurewebsites.net/author/1",
+					"protocol": "https",
+					"host": [
+						"labmanagement-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"author",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create New Lab",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Lab One\",\r\n    \"description\": \"Our First Lab\",\r\n    \"category\": {\r\n        \"id\": 3\r\n    },\r\n    \"author\": {\r\n        \"id\": 2\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://labmanagement-app.azurewebsites.net/lab",
+					"protocol": "https",
+					"host": [
+						"labmanagement-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"lab"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Labs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labmanagement-app.azurewebsites.net/lab",
+					"protocol": "https",
+					"host": [
+						"labmanagement-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"lab"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Single Lab",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labmanagement-app.azurewebsites.net/lab/3",
+					"protocol": "https",
+					"host": [
+						"labmanagement-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"lab",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Lab",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 3,\r\n    \"name\": \"Lab 1.1\",\r\n    \"description\": \"Our Very First Lab\",\r\n    \"category\": {\r\n        \"id\": 3\r\n    },\r\n    \"author\": {\r\n        \"id\": 3\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://labmanagement-app.azurewebsites.net/lab/3",
+					"protocol": "https",
+					"host": [
+						"labmanagement-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"lab",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Lab",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://labmanagement-app.azurewebsites.net/lab/3",
+					"protocol": "https",
+					"host": [
+						"labmanagement-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"lab",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
