@@ -1,1 +1,1 @@
-# labmanagement-starter
+# Azure Developer Program - Final Capstone
